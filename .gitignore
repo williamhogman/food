@@ -1,3 +1,7 @@
 /target
 .idea
 **/*.rs.bk
+bin/
+pkg/
+wasm-pack.log
+worker/generated/

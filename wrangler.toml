@@ -1,0 +1,5 @@
+name = "www-food"
+type = "rust"
+account_id = "96ff28d903d57b9b09cbe6fc3f9ef876"
+route = "http://food.133799.xyz/"
+zone_id = "071515f3975da1d231f7ddaf912aefd2"

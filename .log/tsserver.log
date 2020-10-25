@@ -1,0 +1,273 @@
+Info 0    [16:27:3.271] Starting TS Server
+Info 1    [16:27:3.307] Version: 4.0.3
+Info 2    [16:27:3.307] Arguments: /usr/local/Cellar/node/14.14.0/bin/node /Users/william.rudenmalmhogman/.emacs.d/.cache/lsp/npm/typescript/bin/tsserver --logFile /Users/william.rudenmalmhogman/code/w/food/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/xk/56s93l5s36jb6b6bff9j_86c0000gn/T/b8df9a4f8619ad8fbf8319efa0b37b80/tscancellation*
+Info 3    [16:27:3.307] Platform: darwin NodeVersion: 14 CaseSensitive: false
+Info 4    [16:27:3.307] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [16:27:3.321] Search path: /Users/william.rudenmalmhogman/code/w/food/worker
+Info 6    [16:27:3.335] For info: /Users/william.rudenmalmhogman/code/w/food/worker/worker.js :: No config files found.
+Info 7    [16:27:3.339] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 8    [16:27:3.894] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 554ms
+Info 9    [16:27:3.894] Project '/dev/null/inferredProject1*' (Inferred)
+Info 10   [16:27:3.894] 	Files (6)
+
+Info 11   [16:27:3.894] -----------------------------------------------
+Info 12   [16:27:4.282] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 13   [16:27:4.283] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false Elapsed: 1ms
+Info 14   [16:27:6.530] Before ensureProjectForOpenFiles:
+Info 15   [16:27:6.530] After ensureProjectForOpenFiles:
+Info 16   [16:27:6.531] got projects updated in background, updating diagnostics for /Users/william.rudenmalmhogman/code/w/food/worker/worker.js
+Info 17   [16:28:18.106] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 18   [16:28:18.114] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false Elapsed: 7ms
+Info 19   [16:28:18.114] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 20   [16:28:18.115] getCompletionData: Get current token: 0
+Info 21   [16:28:18.115] getCompletionData: Is inside comment: 0
+Info 22   [16:28:18.115] getCompletionData: Get previous token 1: 0
+Info 23   [16:28:18.116] getCompletionData: Get previous token 2: 1
+Info 24   [16:28:18.116] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 25   [16:28:18.123] getCompletionData: Semantic work: 7
+Info 26   [16:28:18.144] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 17
+Info 27   [16:28:18.972] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 28   [16:28:18.975] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false Elapsed: 3ms
+Info 29   [16:28:18.975] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 30   [16:28:23.953] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 31   [16:28:23.957] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false Elapsed: 4ms
+Info 32   [16:28:23.961] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 33   [16:28:24.671] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 34   [16:28:24.673] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false Elapsed: 2ms
+Info 35   [16:28:24.673] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 36   [16:28:24.673] getCompletionData: Get current token: 0
+Info 37   [16:28:24.674] getCompletionData: Is inside comment: 0
+Info 38   [16:28:24.674] getCompletionData: Get previous token 1: 0
+Info 39   [16:28:24.674] getCompletionData: Get previous token 2: 0
+Info 40   [16:28:24.674] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 41   [16:28:24.675] getCompletionData: Semantic work: 1
+Info 42   [16:28:24.675] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 43   [16:28:37.884] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 44   [16:28:37.886] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false Elapsed: 2ms
+Info 45   [16:28:37.887] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 46   [16:28:38.336] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 47   [16:28:38.340] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 8 structureChanged: false Elapsed: 4ms
+Info 48   [16:28:38.340] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 49   [16:28:39.409] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 50   [16:28:39.412] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 9 structureChanged: false Elapsed: 3ms
+Info 51   [16:28:39.412] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 52   [16:28:39.413] getCompletionData: Get current token: 0
+Info 53   [16:28:39.413] getCompletionData: Is inside comment: 0
+Info 54   [16:28:39.413] getCompletionData: Get previous token 1: 0
+Info 55   [16:28:39.413] getCompletionData: Get previous token 2: 0
+Info 56   [16:28:39.413] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 57   [16:28:39.415] getCompletionData: Semantic work: 2
+Info 58   [16:28:39.415] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 59   [16:28:39.863] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 60   [16:28:39.867] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 10 structureChanged: false Elapsed: 4ms
+Info 61   [16:28:39.867] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 62   [16:28:40.356] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 63   [16:28:40.358] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 11 structureChanged: false Elapsed: 2ms
+Info 64   [16:28:40.358] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 65   [16:28:42.180] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 66   [16:28:42.184] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 12 structureChanged: false Elapsed: 4ms
+Info 67   [16:28:42.184] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 68   [16:28:42.569] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 69   [16:28:42.573] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 13 structureChanged: false Elapsed: 4ms
+Info 70   [16:28:42.573] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 71   [16:28:42.574] getCompletionData: Get current token: 0
+Info 72   [16:28:42.574] getCompletionData: Is inside comment: 0
+Info 73   [16:28:42.574] getCompletionData: Get previous token 1: 0
+Info 74   [16:28:42.574] getCompletionData: Get previous token 2: 0
+Info 75   [16:28:42.574] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 76   [16:28:42.579] getCompletionData: Semantic work: 4
+Info 77   [16:28:42.588] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9
+Info 78   [16:28:42.595] getCompletionData: Get current token: 0
+Info 79   [16:28:42.595] getCompletionData: Is inside comment: 0
+Info 80   [16:28:42.595] getCompletionData: Get previous token 1: 0
+Info 81   [16:28:42.597] getCompletionData: Get previous token 2: 0
+Info 82   [16:28:42.597] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 83   [16:28:42.602] getCompletionData: Semantic work: 5
+Info 84   [16:28:42.612] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10
+Info 85   [16:28:42.617] getCompletionData: Get current token: 0
+Info 86   [16:28:42.617] getCompletionData: Is inside comment: 0
+Info 87   [16:28:42.617] getCompletionData: Get previous token 1: 0
+Info 88   [16:28:42.617] getCompletionData: Get previous token 2: 0
+Info 89   [16:28:42.617] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 90   [16:28:42.622] getCompletionData: Semantic work: 5
+Info 91   [16:28:42.629] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7
+Info 92   [16:28:42.634] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 93   [16:28:42.637] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 14 structureChanged: false Elapsed: 3ms
+Info 94   [16:28:42.637] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 95   [16:28:42.637] getCompletionData: Get current token: 0
+Info 96   [16:28:42.637] getCompletionData: Is inside comment: 0
+Info 97   [16:28:42.637] getCompletionData: Get previous token 1: 0
+Info 98   [16:28:42.637] getCompletionData: Get previous token 2: 0
+Info 99   [16:28:42.637] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 100  [16:28:42.641] getCompletionData: Semantic work: 4
+Info 101  [16:28:42.647] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6
+Info 102  [16:28:43.237] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 103  [16:28:43.240] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 15 structureChanged: false Elapsed: 3ms
+Info 104  [16:28:43.240] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 105  [16:28:43.860] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 106  [16:28:43.864] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 16 structureChanged: false Elapsed: 4ms
+Info 107  [16:28:43.864] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 108  [16:28:44.148] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 109  [16:28:44.151] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 17 structureChanged: false Elapsed: 3ms
+Info 110  [16:28:44.151] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 111  [16:28:44.872] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 112  [16:28:44.877] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 18 structureChanged: false Elapsed: 5ms
+Info 113  [16:28:44.877] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 114  [16:28:45.659] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 115  [16:28:45.662] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 19 structureChanged: false Elapsed: 3ms
+Info 116  [16:28:45.662] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 117  [16:28:48.764] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 118  [16:28:48.768] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 20 structureChanged: false Elapsed: 3ms
+Info 119  [16:28:48.768] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 120  [16:28:50.339] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 121  [16:28:50.342] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 21 structureChanged: false Elapsed: 3ms
+Info 122  [16:28:50.342] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 123  [16:28:50.972] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 124  [16:28:50.976] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 22 structureChanged: false Elapsed: 3ms
+Info 125  [16:28:50.976] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 126  [16:28:51.601] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 127  [16:28:51.604] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 23 structureChanged: false Elapsed: 3ms
+Info 128  [16:28:51.604] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 129  [16:28:52.285] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 130  [16:28:52.288] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 24 structureChanged: false Elapsed: 3ms
+Info 131  [16:28:52.288] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 132  [16:28:52.593] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 133  [16:28:52.595] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 25 structureChanged: false Elapsed: 2ms
+Info 134  [16:28:52.595] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 135  [16:28:55.226] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 136  [16:28:55.229] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 26 structureChanged: false Elapsed: 3ms
+Info 137  [16:28:55.229] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 138  [16:28:55.543] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 139  [16:28:55.546] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 27 structureChanged: false Elapsed: 3ms
+Info 140  [16:28:55.546] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 141  [16:28:55.547] getCompletionData: Get current token: 0
+Info 142  [16:28:55.547] getCompletionData: Is inside comment: 0
+Info 143  [16:28:55.547] getCompletionData: Get previous token 1: 0
+Info 144  [16:28:55.547] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 145  [16:28:55.551] getCompletionData: Semantic work: 4
+Info 146  [16:28:55.556] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 4
+Info 147  [16:29:8.897] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 148  [16:29:8.900] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 28 structureChanged: false Elapsed: 3ms
+Info 149  [16:29:8.900] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 150  [16:29:10.829] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 151  [16:29:10.831] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 29 structureChanged: false Elapsed: 2ms
+Info 152  [16:29:10.831] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 153  [16:40:5.87] Search path: /Users/william.rudenmalmhogman/code/w/food/pkg
+Info 154  [16:40:5.90] For info: /Users/william.rudenmalmhogman/code/w/food/pkg/food.d.ts :: No config files found.
+Info 155  [16:40:5.100] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 156  [16:40:5.478] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 1 structureChanged: true Elapsed: 378ms
+Info 157  [16:40:5.478] Project '/dev/null/inferredProject2*' (Inferred)
+Info 158  [16:40:5.478] 	Files (6)
+
+Info 159  [16:40:5.478] -----------------------------------------------
+Info 160  [16:40:5.679] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 161  [16:40:5.679] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 2 structureChanged: false Elapsed: 0ms
+Info 162  [16:40:8.113] Before ensureProjectForOpenFiles:
+Info 163  [16:40:8.113] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 164  [16:40:8.117] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 3 structureChanged: true Elapsed: 4ms
+Info 165  [16:40:8.117] Project '/dev/null/inferredProject2*' (Inferred)
+Info 166  [16:40:8.117] 	Files (0)
+
+Info 167  [16:40:8.117] -----------------------------------------------
+Info 168  [16:40:8.117] After ensureProjectForOpenFiles:
+Info 169  [16:40:8.118] got projects updated in background, updating diagnostics for /Users/william.rudenmalmhogman/code/w/food/worker/worker.js
+Info 170  [16:40:8.478] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 171  [16:40:8.478] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 4 structureChanged: false Elapsed: 0ms
+Info 172  [16:40:10.731] Before ensureProjectForOpenFiles:
+Info 173  [16:40:10.731] After ensureProjectForOpenFiles:
+Info 174  [16:40:10.731] got projects updated in background, updating diagnostics for /Users/william.rudenmalmhogman/code/w/food/worker/worker.js
+Info 175  [16:51:12.389] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 176  [16:51:12.391] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 5 structureChanged: false Elapsed: 0ms
+Info 177  [16:51:12.435] FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 178  [16:51:12.439] Elapsed:: 3ms FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 179  [16:51:12.439] FileWatcher:: Triggered with /Users/william.rudenmalmhogman/code/w/food/pkg/food.d.ts 1:: WatchInfo: /Users/william.rudenmalmhogman/code/w/food/pkg/food.d.ts 500 undefined Project:  WatchType: Closed Script info
+Info 180  [16:51:12.443] Elapsed:: 4ms FileWatcher:: Triggered with /Users/william.rudenmalmhogman/code/w/food/pkg/food.d.ts 1:: WatchInfo: /Users/william.rudenmalmhogman/code/w/food/pkg/food.d.ts 500 undefined Project:  WatchType: Closed Script info
+Info 181  [16:51:14.637] Before ensureProjectForOpenFiles:
+Info 182  [16:51:14.637] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 183  [16:51:14.653] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 30 structureChanged: true Elapsed: 16ms
+Info 184  [16:51:14.653] Project '/dev/null/inferredProject1*' (Inferred)
+Info 185  [16:51:14.653] 	Files (0)
+
+Info 186  [16:51:14.653] -----------------------------------------------
+Info 187  [16:51:14.653] After ensureProjectForOpenFiles:
+Info 188  [16:51:14.653] got projects updated in background, updating diagnostics for 
+Info 189  [16:51:15.12] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 190  [16:51:15.12] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 31 structureChanged: false Elapsed: 0ms
+Info 191  [16:51:17.265] Before ensureProjectForOpenFiles:
+Info 192  [16:51:17.265] After ensureProjectForOpenFiles:
+Info 193  [16:51:17.265] got projects updated in background, updating diagnostics for 
+Info 194  [16:53:3.106] Search path: /Users/william.rudenmalmhogman/code/w/food/worker
+Info 195  [16:53:3.114] For info: /Users/william.rudenmalmhogman/code/w/food/worker/worker.js :: No config files found.
+Info 196  [16:53:3.123] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 197  [16:53:3.538] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 32 structureChanged: true Elapsed: 415ms
+Info 198  [16:53:3.538] Project '/dev/null/inferredProject1*' (Inferred)
+Info 199  [16:53:3.538] 	Files (6)
+
+Info 200  [16:53:3.538] -----------------------------------------------
+Info 201  [16:53:3.539] `remove Project::
+Info 202  [16:53:3.539] Project '/dev/null/inferredProject2*' (Inferred)
+Info 203  [16:53:3.539] 	Files (0)
+
+Info 204  [16:53:3.539] -----------------------------------------------
+Info 205  [16:53:3.553] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 206  [16:53:3.557] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 33 structureChanged: false Elapsed: 4ms
+Info 207  [16:53:3.557] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 208  [16:53:3.778] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 209  [16:53:3.779] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 34 structureChanged: false Elapsed: 1ms
+Info 210  [16:53:6.146] Before ensureProjectForOpenFiles:
+Info 211  [16:53:6.146] After ensureProjectForOpenFiles:
+Info 212  [16:53:6.146] got projects updated in background, updating diagnostics for /Users/william.rudenmalmhogman/code/w/food/worker/worker.js
+Info 213  [16:54:17.659] FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 214  [16:54:17.660] Elapsed:: 0ms FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 215  [16:54:32.668] FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 216  [16:54:32.671] Elapsed:: 0ms FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 217  [16:59:25.465] FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 218  [16:59:25.468] Elapsed:: 2ms FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 219  [16:59:46.608] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 220  [16:59:46.620] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 35 structureChanged: false Elapsed: 12ms
+Info 221  [16:59:46.620] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 222  [16:59:46.832] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 223  [16:59:46.838] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 36 structureChanged: false Elapsed: 6ms
+Info 224  [16:59:46.838] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 225  [16:59:47.121] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 226  [16:59:47.124] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 37 structureChanged: false Elapsed: 3ms
+Info 227  [16:59:47.124] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 228  [16:59:47.531] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 229  [16:59:47.538] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 38 structureChanged: false Elapsed: 7ms
+Info 230  [16:59:47.538] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 231  [16:59:48.237] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 232  [16:59:48.240] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 39 structureChanged: false Elapsed: 3ms
+Info 233  [16:59:48.240] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 234  [16:59:48.653] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 235  [16:59:48.668] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 40 structureChanged: false Elapsed: 2ms
+Info 236  [16:59:48.695] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 237  [16:59:49.47] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 238  [16:59:49.51] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 41 structureChanged: false Elapsed: 4ms
+Info 239  [16:59:49.51] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 240  [16:59:49.516] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 241  [16:59:49.524] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 42 structureChanged: false Elapsed: 3ms
+Info 242  [16:59:49.524] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 243  [16:59:49.804] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 244  [16:59:49.807] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 43 structureChanged: false Elapsed: 3ms
+Info 245  [16:59:49.807] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 246  [16:59:50.199] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 247  [16:59:50.201] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 44 structureChanged: false Elapsed: 2ms
+Info 248  [16:59:50.201] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 249  [16:59:51.229] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 250  [16:59:51.232] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 45 structureChanged: false Elapsed: 3ms
+Info 251  [16:59:51.232] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 252  [16:59:53.942] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 253  [16:59:53.944] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 46 structureChanged: false Elapsed: 2ms
+Info 254  [16:59:53.944] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 255  [17:0:0.506] FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 256  [17:0:0.507] Elapsed:: 1ms FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 257  [17:4:30.803] FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 258  [17:4:30.803] Elapsed:: 0ms FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 259  [19:14:47.126] FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 260  [19:14:47.150] Elapsed:: 16ms FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 261  [19:15:17.161] FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 262  [19:15:17.165] Elapsed:: 1ms FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 263  [19:16:42.254] FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 264  [19:16:42.257] Elapsed:: 1ms FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 265  [19:23:45.764] FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 266  [19:23:45.767] Elapsed:: 1ms FileWatcher:: Triggered with /users/william.rudenmalmhogman/code/w/food/pkg/package.json 1:: WatchInfo: /users/william.rudenmalmhogman/code/w/food/pkg/package.json 250 undefined Project:  WatchType: package.json file for import suggestions

@@ -2,8 +2,16 @@ use crate::qty::{Quantity, Volume, Weight};
 use itertools::Itertools;
 use std::cmp::Ordering;
 use std::fmt;
+use lazy_static::lazy_static;
+use regex::Regex;
 use std::ops::{Add, MulAssign};
 use std::path::PathBuf;
+
+lazy_static! {
+    pub static ref ITEM_PATTERN: Regex = Regex::new(r"^\s*-\s+").unwrap();
+    pub static ref SERVINGS_PATTERN: Regex =
+        Regex::new(r"^\s*(servings|portioner):\s*\d+\s*$").unwrap();
+}
 
 #[derive(Eq, PartialEq, Hash, Debug, Clone)]
 pub struct Recipe {
@@ -38,13 +46,8 @@ impl Recipe {
             .for_each(|i: &mut Ingredient| i.mul_assign(ratio))
     }
 
-    pub fn from_file(path: PathBuf) -> Option<Recipe> {
-        let lines: Vec<String> = match std::fs::read_to_string(path) {
-            Ok(content) => content.lines().map(str::to_owned).collect(),
-            Err(_) => return None,
-        };
-
-        let title: String = lines
+    pub fn from_strings(lines: Vec<String>) -> Option<Recipe> {
+	let title: String = lines
             .first()
             .clone()
             .expect("Expected a first line")
@@ -55,14 +58,14 @@ impl Recipe {
         let ingredients: Vec<Ingredient> = lines
             .iter()
             .inspect(|line| {
-                if crate::SERVINGS_PATTERN.is_match(&line) {
+                if SERVINGS_PATTERN.is_match(&line) {
                     let parts = line.split(':').collect::<Vec<&str>>();
                     let last = parts.last().unwrap();
                     let number: u8 = last.trim().parse().unwrap();
                     servings = Some(number)
                 }
             })
-            .filter(|line| crate::ITEM_PATTERN.is_match(line))
+            .filter(|line| ITEM_PATTERN.is_match(line))
             .map(|line| Ingredient::parse(&line))
             .filter_map(Result::ok)
             .collect();
@@ -72,6 +75,29 @@ impl Recipe {
             ingredients,
             servings,
         })
+    }
+
+    pub fn from_string(s: String) -> Option<Recipe> {
+	return Self::from_strings(s.split("\n").map(|x| x.to_owned()).collect())
+    }
+
+    pub fn from_file(path: PathBuf) -> Option<Recipe> {
+        let lines: Vec<String> = match std::fs::read_to_string(path) {
+            Ok(content) => content.lines().map(str::to_owned).collect(),
+            Err(_) => return None,
+        };
+	Self::from_strings(lines)
+    }
+
+    pub fn to_html(&self) -> String {
+	let mut res = String::new();
+	res.push_str(format!("<h1>{}</h1>", self.title).as_str());
+	res.push_str("<ul>");
+	for x in &self.ingredients {
+	    res.push_str(format!("<li>{}, {}</li>", x.item, x.amount).as_str());
+	}
+	res.push_str("</ul>");
+	res
     }
 }
 
@@ -137,7 +163,7 @@ impl Ingredient {
 
     fn extract_ingredient(parts: &[&str]) -> String {
         let item: String = (*parts.first().unwrap()).to_string();
-        crate::ITEM_PATTERN.replace_all(&item, "").to_lowercase()
+        ITEM_PATTERN.replace_all(&item, "").to_lowercase()
     }
 }
 
